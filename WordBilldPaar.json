@@ -1,0 +1,27 @@
+[
+  {
+    "id":"0",
+    "wort":"Katze",
+    "url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hauskatze_langhaar.jpg/1200px-Hauskatze_langhaar.jpg"
+  },
+  {
+    "id":"1",
+    "wort":"Banane",
+    "url":"https://www.kochschule.de/sites/default/files/images/kochwissen/440/banane.jpg"
+  },
+  {
+    "id":"2",
+    "wort":"Apfel",
+    "url":"https://image.essen-und-trinken.de/11938418/t/_3/v41/w1440/r1/-/1019839--57862-.jpg"
+  },
+  {
+    "id":"3",
+    "wort":"Netflix",
+    "url":"https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png"
+  },
+  {
+    "id":"4",
+    "wort":"Hund",
+    "url":"https://upload.wikimedia.org/wikipedia/commons/7/74/Icelandic_Sheepdog_Alisa_von_Lehenberg.jpg"
+  }
+]
