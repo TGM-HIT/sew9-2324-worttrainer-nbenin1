@@ -11,11 +11,12 @@ public class WordBildPaar {
     private String url;
     private String wort;
     private Map<Integer, String> map = new HashMap<>();
+
     WordBildPaar(String pfad) {
         try {
             if(pfad == null){
-                map.put(1, "Banane" + " - " + "https://www.kochschule.de/sites/default/files/images/kochwissen/440/banane.jpg");
-                map.put(2, "Apfel" + " - " + "https://media.happycolorz.de/zeichnen-vorlagen/apfel-zeichnen-6.jpg");
+                map.put(0, "Banane" + " - " + "https://www.kochschule.de/sites/default/files/images/kochwissen/440/banane.jpg");
+                map.put(1, "Apfel" + " - " + "https://media.happycolorz.de/zeichnen-vorlagen/apfel-zeichnen-6.jpg");
             }else {
                 JSONTokener tokener = new JSONTokener(new FileReader(pfad));
                 JSONArray jsonArray = new JSONArray(tokener);
@@ -39,6 +40,9 @@ public class WordBildPaar {
         }
     }
 
+    public WordBildPaar(){
+    }
+
     public String getUrl() {
         return url;
     }
@@ -55,21 +59,6 @@ public class WordBildPaar {
         this.wort = wort;
     }
 
-    public String randomPaar(){
-        Random r = new Random();
-        int z = r.nextInt(map.size());
-        System.out.println(map.size());
-        System.out.println(z);
-        String s = map.get(z);
-        System.out.println(s);
-        return s;
-    }
-
-    public String fixPaar(int id){
-        String s = map.get(id);
-        System.out.println(s);
-        return s;
-    }
     public Map<Integer,String> getMap(){
         return map;
     }

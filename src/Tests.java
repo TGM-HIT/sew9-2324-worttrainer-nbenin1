@@ -20,4 +20,15 @@ public class Tests {
         mapÜbergeben = wbp.getMap();
         assertEquals(map, mapÜbergeben);
     }
+
+    @DisplayName("Index Auswahl Worttrainer richtig")
+    @Test
+    public void IndexAuswahlWorttrainer(){
+        WordBildPaar wbp = new WordBildPaar("D:\\Schule\\5.Klasse\\SEW\\Projekte\\sew9-2324-worttrainer-nbenin1\\WordBilldPaar.json");
+        Rechtschreibtrainer rsr = new Rechtschreibtrainer(wbp);
+        String s = rsr.fixPaar(2);
+        assertEquals(s,"Katze - https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hauskatze_langhaar.jpg/1200px-Hauskatze_langhaar.jpg");
+    }
+
+    //url ungültig
 }
