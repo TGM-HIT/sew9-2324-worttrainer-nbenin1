@@ -6,8 +6,9 @@ public class Main {
     public static void main(String[] args) throws MalformedURLException {
         while(true) {
             JPanel panel = new JPanel(new BorderLayout());
-            WordBildPaar wp = new WordBildPaar(null);
-            String wortpaar = wp.randomPaar();
+            WordBildPaar wp = new WordBildPaar("D:\\Schule\\5.Klasse\\SEW\\Projekte\\sew9-2324-worttrainer-nbenin1\\WordBilldPaar.json");
+            Rechtschreibtrainer rsr = new Rechtschreibtrainer(wp);
+            String wortpaar = rsr.randomPaar();
             String[] teile = wortpaar.split(" - ");
 
             String wort = "";
@@ -30,6 +31,7 @@ public class Main {
             if (jopion == JOptionPane.OK_OPTION) {
                 String eingabe = text.getText();
                 JOptionPane.showMessageDialog(null, "Eingegebener Text: " + eingabe);
+                rsr.check(wort,eingabe);
             }
             if (jopion == JOptionPane.CANCEL_OPTION) {
                 break;
