@@ -40,7 +40,6 @@ public class WordBildPaar {
     }
 
     public WordBildPaar(){
-
     }
 
     public String getUrl() {

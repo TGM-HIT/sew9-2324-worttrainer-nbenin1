@@ -29,5 +29,6 @@ public class Tests {
         String s = rsr.fixPaar(2);
         assertEquals(s,"Katze - https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hauskatze_langhaar.jpg/1200px-Hauskatze_langhaar.jpg");
     }
+
     //url ungültig
 }
