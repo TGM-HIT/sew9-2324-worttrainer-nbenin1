@@ -58,7 +58,6 @@ public class WordBildPaar {
         this.wort = wort;
     }
 
-
     public Map<Integer,String> getMap(){
         return map;
     }

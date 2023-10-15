@@ -2,7 +2,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 public class Rechtschreibtrainer {
-
     private Map<Integer, String> map = new HashMap<>();
 
     Rechtschreibtrainer(WordBildPaar wbp) {
