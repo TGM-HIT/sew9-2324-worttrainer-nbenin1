@@ -3,7 +3,6 @@ import java.util.Map;
 import java.util.Random;
 public class Rechtschreibtrainer {
     private Map<Integer, String> map = new HashMap<>();
-
     Rechtschreibtrainer(WordBildPaar wbp) {
         this.map = wbp.getMap();
         System.out.println(map.size());

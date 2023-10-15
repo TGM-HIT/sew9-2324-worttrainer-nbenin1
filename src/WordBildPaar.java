@@ -11,6 +11,7 @@ public class WordBildPaar {
     private String url;
     private String wort;
     private Map<Integer, String> map = new HashMap<>();
+
     WordBildPaar(String pfad) {
         try {
             if(pfad == null){

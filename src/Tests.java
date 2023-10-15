@@ -20,6 +20,7 @@ public class Tests {
         mapÜbergeben = wbp.getMap();
         assertEquals(map, mapÜbergeben);
     }
+
     @DisplayName("Index Auswahl Worttrainer richtig")
     @Test
     public void IndexAuswahlWorttrainer(){
