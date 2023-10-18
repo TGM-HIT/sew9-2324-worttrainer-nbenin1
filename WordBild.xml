@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Paar>
+    <teil>
+        <id>0</id>
+        <wort>Apfel</wort>
+        <url>https://image.essen-und-trinken.de/11938418/t/_3/v41/w1440/r1/-/1019839--57862-.jpg</url>
+    </teil>
+    <teil>
+        <id>1</id>
+        <wort>Banane</wort>
+        <url>https://www.kochschule.de/sites/default/files/images/kochwissen/440/banane.jpg</url>
+    </teil>
+    <teil>
+        <id>2</id>
+        <wort>Katze</wort>
+        <url>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hauskatze_langhaar.jpg/1200px-Hauskatze_langhaar.jpg</url>
+    </teil>
+    <teil>
+        <id>3</id>
+        <wort>Netflix</wort>
+        <url>https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png</url>
+    </teil>
+    <teil>
+        <id>4</id>
+        <wort>Hund</wort>
+        <url>https://upload.wikimedia.org/wikipedia/commons/7/74/Icelandic_Sheepdog_Alisa_von_Lehenberg.jpg</url>
+    </teil>
+</Paar>
